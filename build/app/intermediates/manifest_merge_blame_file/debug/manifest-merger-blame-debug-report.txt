@@ -1,0 +1,216 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.com.ciolfi.chat"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+16-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+17    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-storage:17.0.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/aa8db18d8dc130c6ea22c8b752789331/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:5-79
+18-->[com.google.firebase:firebase-storage:17.0.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/aa8db18d8dc130c6ea22c8b752789331/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:22-76
+19    <!--
+20 io.flutter.app.FlutterApplication is an android.app.Application that
+21         calls FlutterMain.startInitialization(this); in its onCreate method.
+22         In most cases you can leave this as-is, but you if you want to provide
+23         additional functionality it is fine to subclass or reimplement
+24         FlutterApplication and put your custom class here.
+25    -->
+26    <application
+26-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:8:5-29:19
+27        android:name="io.flutter.app.FlutterApplication"
+27-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:9:9-57
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.0.2] /home/gilton/.gradle/caches/transforms-2/files-2.1/4e2901bf3736582cbf3682b9063f6690/core-1.0.2/AndroidManifest.xml:22:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:11:9-43
+31        android:label="chat" >
+31-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:10:9-29
+32        <activity
+32-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:12:9-23:20
+33            android:name="br.com.ciolfi.chat.MainActivity"
+33-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:13:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:16:13-163
+35            android:hardwareAccelerated="true"
+35-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:17:13-47
+36            android:launchMode="singleTop"
+36-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:14:13-43
+37            android:theme="@style/LaunchTheme"
+37-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:15:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:18:13-55
+39            <intent-filter>
+39-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:19:13-22:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:20:17-68
+40-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:20:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:21:17-76
+42-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:21:27-74
+43            </intent-filter>
+44        </activity>
+45        <!--
+46             Don't delete the meta-data below.
+47             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+48        -->
+49        <meta-data
+49-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:26:9-28:33
+50            android:name="flutterEmbedding"
+50-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:27:13-44
+51            android:value="2" />
+51-->/home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/android/app/src/main/AndroidManifest.xml:28:13-30
+52
+53        <service
+53-->[:firebase_storage] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+54            android:name="com.google.firebase.components.ComponentDiscoveryService"
+54-->[:firebase_storage] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+55            android:directBootAware="true"
+55-->[com.google.firebase:firebase-common:19.3.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/f6d83ae07c6ed22216560405f400207e/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+56            android:exported="false" >
+56-->[com.google.firebase:firebase-auth:19.2.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/06b2048fd341c3e7741c57e4ea9dc9d2/jetified-firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+57            <meta-data
+57-->[:firebase_storage] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+58                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+58-->[:firebase_storage] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[:firebase_storage] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+60            <meta-data
+60-->[:firebase_auth] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+61                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+61-->[:firebase_auth] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[:firebase_auth] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+63            <meta-data
+63-->[:cloud_firestore] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+64                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+64-->[:cloud_firestore] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[:cloud_firestore] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+66            <meta-data
+66-->[:firebase_core] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+67                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+67-->[:firebase_core] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[:firebase_core] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-auth:19.2.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/06b2048fd341c3e7741c57e4ea9dc9d2/jetified-firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+70                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+70-->[com.google.firebase:firebase-auth:19.2.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/06b2048fd341c3e7741c57e4ea9dc9d2/jetified-firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-auth:19.2.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/06b2048fd341c3e7741c57e4ea9dc9d2/jetified-firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-storage:17.0.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/aa8db18d8dc130c6ea22c8b752789331/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+73                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+73-->[com.google.firebase:firebase-storage:17.0.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/aa8db18d8dc130c6ea22c8b752789331/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-storage:17.0.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/aa8db18d8dc130c6ea22c8b752789331/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-firestore:21.3.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/44aa65bd23d1ea8a4368149823d6fd77/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+76                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+76-->[com.google.firebase:firebase-firestore:21.3.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/44aa65bd23d1ea8a4368149823d6fd77/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-firestore:21.3.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/44aa65bd23d1ea8a4368149823d6fd77/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+78        </service>
+79
+80        <provider
+80-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+81            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+81-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+82            android:authorities="br.com.ciolfi.chat.flutter.image_provider"
+82-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+83            android:exported="false"
+83-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+84            android:grantUriPermissions="true" >
+84-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+85            <meta-data
+85-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+86                android:name="android.support.FILE_PROVIDER_PATHS"
+86-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+87                android:resource="@xml/flutter_image_picker_file_paths" />
+87-->[:image_picker] /home/gilton/workspace/oficina/andy/hackathon_shawee_covid19/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+88        </provider>
+89
+90        <activity
+90-->[com.google.firebase:firebase-auth:19.2.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/06b2048fd341c3e7741c57e4ea9dc9d2/jetified-firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+91            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+91-->[com.google.firebase:firebase-auth:19.2.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/06b2048fd341c3e7741c57e4ea9dc9d2/jetified-firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+92            android:excludeFromRecents="true"
+92-->[com.google.firebase:firebase-auth:19.2.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/06b2048fd341c3e7741c57e4ea9dc9d2/jetified-firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+93            android:exported="true"
+93-->[com.google.firebase:firebase-auth:19.2.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/06b2048fd341c3e7741c57e4ea9dc9d2/jetified-firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+94            android:launchMode="singleTask"
+94-->[com.google.firebase:firebase-auth:19.2.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/06b2048fd341c3e7741c57e4ea9dc9d2/jetified-firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+95            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+95-->[com.google.firebase:firebase-auth:19.2.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/06b2048fd341c3e7741c57e4ea9dc9d2/jetified-firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.firebase:firebase-auth:19.2.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/06b2048fd341c3e7741c57e4ea9dc9d2/jetified-firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+97        <activity
+97-->[com.google.android.gms:play-services-auth:16.0.1] /home/gilton/.gradle/caches/transforms-2/files-2.1/72d167ca117abe06402e067dc318caf7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+98            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+98-->[com.google.android.gms:play-services-auth:16.0.1] /home/gilton/.gradle/caches/transforms-2/files-2.1/72d167ca117abe06402e067dc318caf7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+99            android:excludeFromRecents="true"
+99-->[com.google.android.gms:play-services-auth:16.0.1] /home/gilton/.gradle/caches/transforms-2/files-2.1/72d167ca117abe06402e067dc318caf7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-auth:16.0.1] /home/gilton/.gradle/caches/transforms-2/files-2.1/72d167ca117abe06402e067dc318caf7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.android.gms:play-services-auth:16.0.1] /home/gilton/.gradle/caches/transforms-2/files-2.1/72d167ca117abe06402e067dc318caf7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+102        <!--
+103            Service handling Google Sign-In user revocation. For apps that do not integrate with
+104            Google Sign-In, this service will never be started.
+105        -->
+106        <service
+106-->[com.google.android.gms:play-services-auth:16.0.1] /home/gilton/.gradle/caches/transforms-2/files-2.1/72d167ca117abe06402e067dc318caf7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+107            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+107-->[com.google.android.gms:play-services-auth:16.0.1] /home/gilton/.gradle/caches/transforms-2/files-2.1/72d167ca117abe06402e067dc318caf7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+108            android:exported="true"
+108-->[com.google.android.gms:play-services-auth:16.0.1] /home/gilton/.gradle/caches/transforms-2/files-2.1/72d167ca117abe06402e067dc318caf7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+109            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+109-->[com.google.android.gms:play-services-auth:16.0.1] /home/gilton/.gradle/caches/transforms-2/files-2.1/72d167ca117abe06402e067dc318caf7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+110
+111        <provider
+111-->[com.google.firebase:firebase-common:19.3.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/f6d83ae07c6ed22216560405f400207e/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+112            android:name="com.google.firebase.provider.FirebaseInitProvider"
+112-->[com.google.firebase:firebase-common:19.3.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/f6d83ae07c6ed22216560405f400207e/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+113            android:authorities="br.com.ciolfi.chat.firebaseinitprovider"
+113-->[com.google.firebase:firebase-common:19.3.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/f6d83ae07c6ed22216560405f400207e/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+114            android:exported="false"
+114-->[com.google.firebase:firebase-common:19.3.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/f6d83ae07c6ed22216560405f400207e/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+115            android:initOrder="100" />
+115-->[com.google.firebase:firebase-common:19.3.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/f6d83ae07c6ed22216560405f400207e/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+116
+117        <activity
+117-->[com.google.android.gms:play-services-base:17.1.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/ad3d481aaca9c17dadbc648f2d562243/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+118            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+118-->[com.google.android.gms:play-services-base:17.1.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/ad3d481aaca9c17dadbc648f2d562243/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+119            android:exported="false"
+119-->[com.google.android.gms:play-services-base:17.1.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/ad3d481aaca9c17dadbc648f2d562243/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+120-->[com.google.android.gms:play-services-base:17.1.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/ad3d481aaca9c17dadbc648f2d562243/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+121
+122        <meta-data
+122-->[com.google.android.gms:play-services-basement:17.0.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/546f934f50c275c9660999e7d4c50dbc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+123            android:name="com.google.android.gms.version"
+123-->[com.google.android.gms:play-services-basement:17.0.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/546f934f50c275c9660999e7d4c50dbc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+124            android:value="@integer/google_play_services_version" />
+124-->[com.google.android.gms:play-services-basement:17.0.0] /home/gilton/.gradle/caches/transforms-2/files-2.1/546f934f50c275c9660999e7d4c50dbc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+125    </application>
+126
+127</manifest>

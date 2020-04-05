@@ -7,6 +7,6 @@ firebase_core=/opt/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core
 firebase_core_web=/opt/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/
 firebase_storage=/opt/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-3.1.5/
 flutter_plugin_android_lifecycle=/opt/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.6/
-google_sign_in=/opt/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.3.0/
+google_sign_in=/opt/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.4.0/
 google_sign_in_web=/opt/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.8.4/
 image_picker=/opt/SDKs/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.4/
